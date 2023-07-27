@@ -11,7 +11,7 @@ interface MovieCardProps {
   data: MovieInterface;
 }
 
-const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
+const MovieCardSmall: React.FC<MovieCardProps> = ({ data }) => {
   const router = useRouter();
   const { openModal } = useInfoModalStore();
 
@@ -94,4 +94,4 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
   )
 }
 
-export default MovieCard;
+export default MovieCardSmall;
